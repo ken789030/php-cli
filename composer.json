@@ -1,0 +1,18 @@
+{
+    "name": "ken/php-cli",
+    "description": "寫一個cli執行程序",
+    "autoload": {
+        "psr-4": {
+            "Ken\\PhpCli\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ken",
+            "email": "ken789030@gmail.com"
+        }
+    ],
+    "require": {
+        "league/climate": "^3.8"
+    }
+}
